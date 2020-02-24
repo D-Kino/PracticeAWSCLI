@@ -7,8 +7,8 @@ aws-cli/1.17.13 Python/3.7.6 Darwin/19.3.0 botocore/1.14.13
 [python]  
 Python 3.8.1
 
-[Mac]  
-macOS Catalina
+[Ansible]  
+ansible 2.9.4
 
 ## ネットワーク構成図
 ![network](./CloudMapper.png)
