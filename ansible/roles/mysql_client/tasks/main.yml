@@ -1,0 +1,8 @@
+- name: MySQL　RPM インストール
+  yum:
+    name: "{{ mysql_yum_repository }}"
+
+- name: MySQL インストール
+  yum:
+    name: "{{ item }}"
+  with_items: "{{ mysql_yum_package }}"

@@ -1,0 +1,5 @@
+[WebServer]
+10.0.2.10
+10.0.4.10
+[BastionServer]
+10.0.1.10

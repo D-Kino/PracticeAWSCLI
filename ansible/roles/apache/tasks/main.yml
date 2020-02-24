@@ -1,0 +1,5 @@
+- name: Apache インストール
+  yum: name=httpd
+
+- name: Apache 起動
+  service: name=httpd state=started enabled=yes

@@ -1,0 +1,13 @@
+- hosts: WebServer
+  become: yes
+  roles:
+    - apache
+    - mysql_client
+  handlers:
+    - name: restart httpd
+      service: name=httpd state=restarted
+
+- hosts: BastionServer
+  become: yes
+  roles:
+    - mysql_client
