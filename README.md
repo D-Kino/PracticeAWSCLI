@@ -4,7 +4,7 @@
 [AWS CLI]  
 aws-cli/1.17.13 Python/3.7.6 Darwin/19.3.0 botocore/1.14.13
 
-[python]  
+[Python]  
 Python 3.8.1
 
 [Ansible]  
